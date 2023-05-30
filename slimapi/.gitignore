@@ -1,0 +1,34 @@
+# Directories
+vendor/
+logs/
+Slim/
+
+# Slim Framework specific files
+/app/cache/*
+/app/logs/*
+/app/templates_c/*
+/phpunit.xml
+/composer.lock
+
+# Development specific files
+/.vscode
+/.idea
+/.phpunit.result.cache
+
+# Environment specific files
+.env
+.env.*
+*.env
+
+# Editor and IDE specific files
+/.vscode/
+/.idea/
+*.sublime-project
+*.sublime-workspace
+*.idea
+*.iml
+
+# Package and dependency files
+composer.phar
+composer.lock
+vendor/
